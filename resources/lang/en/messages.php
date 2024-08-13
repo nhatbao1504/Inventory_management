@@ -101,5 +101,8 @@ return [
     'project_list' => 'Project List',
     'project_code' => 'Project Code',
     'summary' => 'Summary',
-    'total_price' => 'Total Price'
+    'project_price' => 'Price',
+    'project_owner' => 'Project Owner',
+    'project_owner' => 'Project Owner',
+    'project_date'=> 'Project Date',
 ];

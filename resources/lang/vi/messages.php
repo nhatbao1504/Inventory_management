@@ -102,5 +102,7 @@ return [
     'project_list' => 'Danh sách dự án',
     'project_code' => 'Code dự án',
     'summary' => 'Tổng kết',
-    'total_price' => 'Tổng giá'
+    'project_price' => 'Price',
+    'project_owner' => 'Người xuất kho',
+    'project_date'=> 'Ngày khởi công',
 ];

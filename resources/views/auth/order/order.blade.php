@@ -37,18 +37,72 @@
                 <thead class="table-light">
                     <tr>
                         <th class="text-center">{{ __('messages.project_code') }}</th>
+                        <th class="text-center">{{__('messages.project_owner') }}</th>
                         <th class="text-center">{{ __('messages.project_name') }}</th>
                         <th class="text-center">{{ __('messages.status') }}</th>
-                        <th class="text-center">{{ __('messages.total_price') }}</th>
-
+                        <th class="text-center">{{ __('messages.project_price') }}</th>
+                        <th class="text-center">{{ __('messages.project_date') }}</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">P001</td>
+                        <td class="text-center">Nguyễn Nhất Duy</td>
+                        <td class="text-center">Phòng gym private</td>
+                        <td class="text-center">Đang làm</td>
+                        <td class="text-center">5.000.000.000 VND</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
+    <div class="container">
+        <div class="content">
+            <div class="info">
 
-
-
-
-
+            </div>
+            <div class="total">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Sub total</td>
+                            <td>998.117.013</td>
+                        </tr>
+                        <tr>
+                            <td>Sub total</td>
+                            <td>998.117.013</td>
+                        </tr>
+                        <tr>
+                            <td>Sub total</td>
+                            <td>998.117.013</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 @endsection
+
+<style>
+    .content{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .info{
+        border: 1px solid black;
+        height: 50px;
+        width:200px;
+    }
+    .total{
+        width: 250px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .total table tbody tr td{
+        padding-left: 30px;
+    }
+</style>
