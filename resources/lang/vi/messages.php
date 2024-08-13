@@ -97,4 +97,10 @@ return [
     'gender' => 'Giới tính',
     'male' => 'Nam',
     'female' => 'Nữ',
+
+    'order' => 'Đặt hàng',
+    'project_list' => 'Danh sách dự án',
+    'project_code' => 'Code dự án',
+    'summary' => 'Tổng kết',
+    'total_price' => 'Tổng giá'
 ];

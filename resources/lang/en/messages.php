@@ -96,4 +96,10 @@ return [
     'gender' => 'Gender',
     'male' => 'Male',
     'female' => 'Female',
+
+    'order' => 'Order',
+    'project_list' => 'Project List',
+    'project_code' => 'Project Code',
+    'summary' => 'Summary',
+    'total_price' => 'Total Price'
 ];
